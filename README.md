@@ -1,4 +1,4 @@
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SchweGELBin&theme=tokyonight)
 ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SchweGELBin&theme=tokyonight)
 ![Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SchweGELBin&theme=tokyonight)
-[![Streak](https://streak-stats.demolab.com?user=SchweGELBin&theme=tokyonight&hide_border=true&border_radius=6&date_format=j%20M%5B%20Y%5D&card_width=700)](https://git.io/streak-stats)
+![Streak](https://streak-stats.demolab.com?user=SchweGELBin&theme=tokyonight&hide_border=true&border_radius=6&date_format=j%20M%5B%20Y%5D&card_width=700)
