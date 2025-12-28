@@ -29,7 +29,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: ${{ env.BASE }}&show_icons=true&number_format=long&include_all_commits=true&show=discussions_answered,discussions_started,prs_merged,prs_merged_percentage,reviews
+          options: ${{ env.BASE }}&show_icons=true&number_format=long&line_height=30&include_all_commits=true&show=discussions_answered,discussions_started,prs_merged,prs_merged_percentage,reviews
           path: ${{ env.OUT }}/stats-full.svg
 
       - name: Generate top-langs
