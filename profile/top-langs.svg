@@ -1,15 +1,15 @@
 
       <svg
-        width="450"
-        height="195"
-        viewBox="0 0 450 195"
+        width="300"
+        height="375"
+        viewBox="0 0 300 375"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Michi's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 144, Total Commits  (last year) : 1706, Total PRs: 136, Total Issues: 13, Contributed to (last year): 24</desc>
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -21,6 +21,22 @@
             .header { font-size: 15.5px; }
           }
           
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
     .stat {
       font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #cdd6f4;
     }
@@ -28,56 +44,22 @@
       /* Selector detects Firefox */
       .stat { font-size:12px; }
     }
+    .bold { font-weight: 700 }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #cdd6f4;
+    }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #cdd6f4;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
     }
-    .rank-percentile-header {
-      font-size: 14px;
-    }
-    .rank-percentile-text {
-      font-size: 16px;
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
     }
     
-    .not_bold { font-weight: 400 }
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #cba6f7;
-      display: none;
-    }
-
-    .rank-circle-rim {
-      stroke: #94e2d5;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #94e2d5;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 54.15876262143464;
-      }
-    }
-  
-  
 
           
       /* Animations */
@@ -110,7 +92,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="449"
+          width="299"
           fill="#1e1e2e"
           stroke-opacity="1"
         />
@@ -126,7 +108,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Michi's GitHub Stats</text>
+      >Most Used Languages</text>
     </g>
       </g>
     
@@ -136,75 +118,113 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle"
-          transform="translate(365, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-          
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          A
-        </text>
-      
-        </g>
-      </g>
-    <svg x="0" y="0">
+    <svg data-testid="lang-items">
       <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total Stars Earned:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="stars"
-      >144</text>
+        <svg data-testid="pie">
+          
+      <g class="stagger" style="animation-delay: 100ms">
+        <path
+          data-testid="lang-pie"
+          size="50.709888108177594"
+          d="M 150 100 L 240 100 A 90 90 0 1 1 60.08951175038642 95.98700825865568 Z"
+          fill="#7e7eff"
+        />
+      </g>
+    
+      <g class="stagger" style="animation-delay: 200ms">
+        <path
+          data-testid="lang-pie"
+          size="26.59311144600556"
+          d="M 150 100 L 60.08951175038642 95.98700825865568 A 90 90 0 0 1 162.97775546800813 10.940593629799068 Z"
+          fill="#A97BFF"
+        />
+      </g>
+    
+      <g class="stagger" style="animation-delay: 300ms">
+        <path
+          data-testid="lang-pie"
+          size="10.575978950880831"
+          d="M 150 100 L 162.97775546800813 10.940593629799068 A 90 90 0 0 1 215.13680730663074 37.893669131892395 Z"
+          fill="#dea584"
+        />
+      </g>
+    
+      <g class="stagger" style="animation-delay: 400ms">
+        <path
+          data-testid="lang-pie"
+          size="4.660290300611836"
+          d="M 150 100 L 215.13680730663074 37.893669131892395 A 90 90 0 0 1 230.29115605450164 59.338835980364955 Z"
+          fill="#ff5a03"
+        />
+      </g>
+    
+      <g class="stagger" style="animation-delay: 500ms">
+        <path
+          data-testid="lang-pie"
+          size="3.8233580675070633"
+          d="M 150 100 L 230.29115605450164 59.338835980364955 A 90 90 0 0 1 237.65977938397117 79.60973079252003 Z"
+          fill="#b07219"
+        />
+      </g>
+    
+      <g class="stagger" style="animation-delay: 600ms">
+        <path
+          data-testid="lang-pie"
+          size="3.637373126817114"
+          d="M 150 100 L 237.65977938397117 79.60973079252003 A 90 90 0 0 1 240 99.99999999999997 Z"
+          fill="#89e051"
+        />
+      </g>
+    
+        </svg>
+      </g>
+      <g transform="translate(0, 220)">
+        <svg data-testid="lang-names" x="25">
+          <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#7e7eff" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Nix 50.71%
+      </text>
     </g>
   </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total Commits (last year):</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="commits"
-      >1.7k</text>
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#A97BFF" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Kotlin 26.59%
+      </text>
     </g>
   </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total PRs:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="prs"
-      >136</text>
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#dea584" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Rust 10.58%
+      </text>
     </g>
-  </g><g transform="translate(0, 75)">
-    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total Issues:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="issues"
-      >13</text>
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#ff5a03" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Astro 4.66%
+      </text>
     </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Contributed to (last year):</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="contribs"
-      >24</text>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Java 3.82%
+      </text>
     </g>
-  </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#89e051" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Shell 3.64%
+      </text>
+    </g>
+  </g></g>
+        </svg>
+      </g>
     </svg>
   
         </g>
