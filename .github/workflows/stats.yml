@@ -41,8 +41,8 @@ jobs:
      
       - name: Update repository
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ${{ env.OUT }}/*.svg
           git commit -m "profile: update cards" || exit 0
           git push
