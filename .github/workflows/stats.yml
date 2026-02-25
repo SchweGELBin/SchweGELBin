@@ -36,7 +36,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: ${{ env.BASE }}&langs_count=6&layout=pie
+          options: ${{ env.BASE }}&langs_count=6&layout=pie&exclude_repo=eden
           path: ${{ env.OUT }}/top-langs.svg
      
       - name: Update repository
