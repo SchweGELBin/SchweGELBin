@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Michi's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 159, Total Commits  : 4128, Total PRs: 154, Total PRs Merged: 128, Merged PRs Percentage: 83.12, Total PRs Reviewed: 98, Total Issues: 15, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 26</desc>
+        <desc id="descId">Total Stars Earned: 160, Total Commits  : 4145, Total PRs: 156, Total PRs Merged: 129, Merged PRs Percentage: 82.69, Total PRs Reviewed: 101, Total Issues: 15, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 27</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 50.44206956107072;
+        stroke-dashoffset: 50.11538436743255;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >159</text>
+      >160</text>
     </g>
   </g><g transform="translate(0, 30)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >4128</text>
+      >4145</text>
     </g>
   </g><g transform="translate(0, 60)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >154</text>
+      >156</text>
     </g>
   </g><g transform="translate(0, 90)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >128</text>
+      >129</text>
     </g>
   </g><g transform="translate(0, 120)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >83.12 %</text>
+      >82.69 %</text>
     </g>
   </g><g transform="translate(0, 150)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
@@ -237,7 +237,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >98</text>
+      >101</text>
     </g>
   </g><g transform="translate(0, 180)">
     <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
@@ -297,7 +297,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >26</text>
+      >27</text>
     </g>
   </g>
     </svg>
