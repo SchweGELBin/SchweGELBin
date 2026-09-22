@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Michi&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 186, Total Commits  : 5661, Total PRs: 188, Total PRs Merged: 165, Merged PRs Percentage: 87.77, Total Issues: 15, Total Discussions Started: 0, Total Discussions Answered: 0, PRs Commented: 193, PRs Reviewed: 135, Issues Commented: 56, Contributed to (last year): 19</desc>
+        <desc id="descId">Total Stars Earned: 189, Total Commits  : 5712, Total PRs: 193, Total PRs Merged: 170, Merged PRs Percentage: 88.08, Total Issues: 15, Total Discussions Started: 0, Total Discussions Answered: 0, PRs Commented: 193, PRs Reviewed: 135, Issues Commented: 56, Contributed to (last year): 17</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 42.85033880093699;
+        stroke-dashoffset: 41.98201833198668;
       }
     }
   
@@ -169,7 +169,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >186</text>
+      >189</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >5661</text>
+      >5712</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >188</text>
+      >193</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged"
-      >165</text>
+      >170</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >87.77 %</text>
+      >88.08 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
@@ -334,7 +334,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >19</text>
+      >17</text>
     </g>
   </g>
     </svg>
